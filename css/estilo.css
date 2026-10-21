@@ -28,11 +28,6 @@ body {
     padding: 15px;
 }
 
-#area-postagens,
-#area-lateral {
-    background: white;
-}
-
 #area-postagens {
     width: 660px;
     float: left;
@@ -47,6 +42,18 @@ body {
 #area-lateral {
     width: 240px;
     float: right;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
 }
 
 #rodape {
@@ -67,6 +74,7 @@ body {
 #area-cabecalho a:hover {
     color: #f7b600;
     background: #FFF;
+    text-decoration: none;
 }
 
 /* ===== FORMATAÇÕES GERAIS ===== */
@@ -93,6 +101,12 @@ h2 {
     color: #f7b600;
 }
 
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
@@ -104,3 +118,4 @@ h2 {
     margin-bottom: 10px;
     display: block;
 }
+
